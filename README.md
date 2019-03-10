@@ -1,13 +1,13 @@
-# This script is used to send email alerts to the IAM users configured with email addresses to login to AWS console.
+# This script is used to send Access key rotation alerts to the IAM users configured with email addresses to login to AWS console.
 
 ## Usage:
 ```
-./script.sh <AWS_PROFILE> <FROM_ADDRESS>
+./script.sh <AWS_PROFILE>
 ```
 
 ## Example:
 ```
-./script.sh some-profile-name example@vrnchndk.in
+./script.sh some-profile-name
 ```
 
 ## Notes:
